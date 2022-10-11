@@ -1,13 +1,126 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* App Component Style------------------------------------------------------------ */
+
+.heading {
+  text-decoration: underline;
+  text-align: center;
+}
+.app {
+  display: flex;
+  justify-content: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* end app style------------------------------------------------------------------ */
+
+
+
+/* table style-------------------------------------------------------------------- */
+
+/* table row */
+.row {
+  background-color: blueviolet;
 }
+
+/* table data */
+td {
+  background-color: #fbddda;
+  text-align: center;
+  padding: 5px;
+  color: white;
+  border-right: 1px solid black;
+}
+.none {
+  background-color: white;
+  color: black;
+}
+/* end table style---------------------------------------------------------------- */
+
+
+
+/* tooltips style----------------------------------------------------------------- */
+
+/* tooltip container */
+.tooltip-container {
+  padding: 5px;
+  position: absolute;
+  border-radius: 10px;
+  color: white;
+}
+
+/* style for 1st task style */
+#tooltip-1{ 
+  background-color: #ea5545;
+  left: 225px;
+  top: 111px;
+  display: none;
+}
+
+/* style for 2nd task style */
+#tooltip-2{
+  background-color: #ea5545;
+  top: 145px;
+  left: 485px;
+  display: none;
+}
+
+/*  style for 3rd task style  */
+#tooltip-3{
+  background-color: #ea5545;
+  top: 179px;
+  left: 672px;
+  display: none;
+}
+
+/*  style for 4th task style  */
+#tooltip-4{
+  background-color: #EC752F;
+  top: 213px;
+  left: 515px;
+  display: none;
+}
+
+/*  style for 5th task style  */
+#tooltip-5{
+  background-color: #EC752F;
+  top: 248px;
+  left: 682px;
+  display: none;
+}
+
+/*  style for 6th task style  */
+#tooltip-6{
+  background-color: #E4941A;
+  top: 281px;
+  left: 844px;
+  display: none;
+}
+
+/*  style for 7th task style  */
+#tooltip-7{
+  background-color: #E4941A;
+  top: 315px;
+  left: 980px;
+  display: none;
+}
+
+/*  style for 8th task style  */
+#tooltip-8{
+  background-color: #D5B316;
+  top: 350px;
+  left: 851px;
+  display: none;
+}
+
+/*  style for 9th task style  */
+#tooltip-9{
+  background-color: #D5B316;
+  top: 384px;
+  right: 154px;
+  display: none;
+}
+
+/* tooltip paragraph style */
+.tooltip-container p {
+  margin: 0%;
+}
+
+/* end tooltips style------------------------------------------------------------  */
